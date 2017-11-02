@@ -11,7 +11,7 @@ bot_prefix= ","
 client = commands.Bot(command_prefix=bot_prefix)
 
 luke_say = ["nerr, you're a pansey","nerr horseburg", "shank shank","nerr, lunchboy","your a communist"]
-billy_say = ["im smarter than you so your wrong","your fat","im stupid","i have more friends than you"]
+billy_say = ["im smarter than you so your wrong","your fat","im stupid","i have more friends than you","i should be in grandmasters","i main junkrat"]
 boi = ["https://cdn.discordapp.com/attachments/370727786865754117/375039491410362369/28e.png"]
 boi.extend(["https://cdn.discordapp.com/attachments/370727786865754117/375043710167023616/552x414bb.png"])
 boi.extend(["https://cdn.discordapp.com/attachments/370727786865754117/375043295031853056/flat800x800075t.png"])
@@ -31,7 +31,7 @@ async def luke (ctx):
 
 @client.command(pass_context=True)	
 async def billy (ctx):
-	await client.say(billy_say[random.randrange(0,4)])
+	await client.say(billy_say[random.randrange(0,6)])
 	
 @client.command(pass_context=True)
 async def nou (ctx):
