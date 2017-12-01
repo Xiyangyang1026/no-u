@@ -1,1 +1,1 @@
-worker: python no u.py
+worker: python No u.py
